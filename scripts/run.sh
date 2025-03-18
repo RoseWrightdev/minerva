@@ -1,4 +1,5 @@
-cd minerva
+# kind
+kind create cluster --name minerva
 
 # networking
 kubectl apply -f gateway/gateway-api.yaml
